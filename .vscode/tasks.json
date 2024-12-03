@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "C/C++: g++ build active file",
+        "type": "shell",
+        "command": "/usr/bin/g++",
+        "args": [
+          "-std=c++11",
+          "-I/usr/include/eigen3",
+          "/home/jeong/VSW_HM/kalman_filter.cpp",
+          "-o",
+          "/home/jeong/VSW_HM/kalman_filter",
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task by Debugger."
+      }
+    ]
+  }
